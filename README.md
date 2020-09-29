@@ -2,7 +2,9 @@ Your aws profiles are stored in your ~/.aws/config file
 This is the file that will be used in the menu
 
 You must add these 2 lines to your ~/bashrc file
+
 alias lamgetset='/usr/bin/nodejs /home/...../.../.../index.js'
+
 export AWS_PAGER=""
 
 The first line will set a shortcut in your terminal so that you can access the menu in any directory. I use a different name instead of lamgetset. So its easy to bash 3 keys and tab to get the command to autocomplete.
